@@ -17,7 +17,7 @@ assert w3.is_connected(), "Not connected to a Celo node"
 
 # Set deployer account and private key
 deployer = os.environ.get("CELO_DEPLOYER_ADDRESS")
-private_key = os.environ.get("CELO_DEPLOYER_PRIVATE_KEY")
+private_key = os.environ.get("INSURER_PRIVATE_KEY")
 
 
 with open("Insurance.sol", "r") as file:
